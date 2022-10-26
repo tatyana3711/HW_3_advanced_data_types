@@ -54,7 +54,7 @@ print("Anna has %s apples and %d peaches." % (apples, peaches))
 
 # 11*. With variable substitutions by name (hint: by using dict)
 d = {apples: 6, peaches: 7}
-print(f"111111Anna has {d[0]} apples and {d[1]} peaches.")
+print(f"Anna has {d[apples]} apples and {d[peaches]} peaches.")
 
 #12. Convert (1) to list comprehension
 list_comprehension_1 = [num ** 2 if num % 2 == 1 else num ** 4 for num in range(10)]
