@@ -54,7 +54,7 @@ print("Anna has %s apples and %d peaches." % (apples, peaches))
 
 # 11*. With variable substitutions by name (hint: by using dict)
 d = {apples: 6, peaches: 7}
-print(f"Anna has {d[apples]} apples and {d[peaches]} peaches.")
+print(f"111111Anna has {d[0]} apples and {d[1]} peaches.")
 
 #12. Convert (1) to list comprehension
 list_comprehension_1 = [num ** 2 if num % 2 == 1 else num ** 4 for num in range(10)]
@@ -94,11 +94,11 @@ for x in range(10):
 print(d)
 
 #18. Convert (7) to lambda function
-foo = lambda x, y: x if x < y else x
+foo = lambda x, y: x if x < y else y
 
 #19*. Convert (8) to regular function
 def foo(x, y, z):
-    if x < y and x > z:
+    if y < x and x > z:
         return z
     else:
         return y
